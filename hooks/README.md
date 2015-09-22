@@ -1,22 +1,21 @@
  <!--
-#
-# Licensed to the Apache Software Foundation (ASF) under one
-# or more contributor license agreements.  See the NOTICE file
-# distributed with this work for additional information
-# regarding copyright ownership.  The ASF licenses this file
-# to you under the Apache License, Version 2.0 (the
-# "License"); you may not use this file except in compliance
-# with the License.  You may obtain a copy of the License at
-#
-# http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing,
-# software distributed under the License is distributed on an
-# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-#  KIND, either express or implied.  See the License for the
-# specific language governing permissions and limitations
-# under the License.
-#
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+
 -->
 # Cordova Hooks
 
@@ -61,7 +60,7 @@ The following subdirectories will be used for hooks:
     before_serve/
     pre_package/ <-- Windows 8 and Windows Phone only.
 
-## Script Interface
+# Script Interface
 
 All scripts are run from the project's root directory and have the root directory passes as the first argument. All other options are passed to the script using environment variables:
 
@@ -74,7 +73,7 @@ All scripts are run from the project's root directory and have the root director
 If a script returns a non-zero exit code, then the parent cordova command will be aborted.
 
 
-## Writing hooks
+# Writing hooks
 
 We highly recommend writting your hooks using Node.js so that they are
 cross-platform. Some good examples are shown here:
